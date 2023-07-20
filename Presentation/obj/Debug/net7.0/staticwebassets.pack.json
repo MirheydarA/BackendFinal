@@ -1,0 +1,745 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\about-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\about-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\appointment-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\appointment-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\appointment.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\appointment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\banner-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\banner-image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\banner-image-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\cart-frame.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cart-frame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-bone.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-bone.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-brain.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-brain.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-heart.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-heart.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-liver.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-liver.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-slider-img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-slider-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-slider-img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-slider-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-slider-img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-slider-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-stomach.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-stomach.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic-tooth.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic-tooth.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\clinic4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\clinic4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\contact-us-sidebar.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-us-sidebar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\contact-us.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\covervideo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\covervideo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\dc-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dc-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\dental-clinic-title.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dental-clinic-title.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-2.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-3.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-4.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-page-title.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-page-title.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\doctor-single.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\doctor-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\down-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\expand-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\expand-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\file.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\form-icon-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\form-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\form-icon-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\form-icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\form-icon-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\form-icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\gallery-p-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-p-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\gallery-p-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-p-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\gallery-p-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-p-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\home-bone.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home-bone.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\home-brain.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home-brain.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\home-heart.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home-heart.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\home-liver.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home-liver.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\home-stomach.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home-stomach.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\home-tooth.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home-tooth.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\instagram-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\instagram-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\instagram-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\instagram-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\instagram-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\instagram-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\liver.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\liver.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\main-frame-photo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-frame-photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\md-icon-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\md-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\md-icon-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\md-icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\md-icon-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\md-icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\md-icon-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\md-icon-4.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\md-icon-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\md-icon-5.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\md-icon-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\md-icon-6.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\medical-department.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\medical-department.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\minus.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\news-photo-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-photo-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\nurse.png",
+      "PackagePath": "staticwebassets\\assets\\images\\nurse.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\our-clinic-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\our-clinic-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\our-clinic-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\our-clinic-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\phone-vibration.png",
+      "PackagePath": "staticwebassets\\assets\\images\\phone-vibration.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\photos-sec-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\photos-sec-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\photos-sec-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\photos-sec-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\photos-sec-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\photos-sec-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\physician.png",
+      "PackagePath": "staticwebassets\\assets\\images\\physician.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\plus.png",
+      "PackagePath": "staticwebassets\\assets\\images\\plus.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\plus.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\post-standard-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post-standard-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\post-standard-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post-standard-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-single-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-single-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-single1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-single1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\product-single2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-single2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\search-product-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\search-product-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\search.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\shop-basket.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop-basket.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\shop-page-title.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop-page-title.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\signature.png",
+      "PackagePath": "staticwebassets\\assets\\images\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\stethoscope.png",
+      "PackagePath": "staticwebassets\\assets\\images\\stethoscope.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\stopwatch.png",
+      "PackagePath": "staticwebassets\\assets\\images\\stopwatch.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\user.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\white-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\white-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\why-choose-photo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\why-choose-photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\assets\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\js\\calendar.js",
+      "PackagePath": "staticwebassets\\js\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\js\\countTo.js",
+      "PackagePath": "staticwebassets\\js\\countTo.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\js\\jquery.shoppingcart.js",
+      "PackagePath": "staticwebassets\\js\\jquery.shoppingcart.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Presentation.props",
+      "PackagePath": "build\\Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Presentation.props",
+      "PackagePath": "buildMultiTargeting\\Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Presentation.props",
+      "PackagePath": "buildTransitive\\Presentation.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
