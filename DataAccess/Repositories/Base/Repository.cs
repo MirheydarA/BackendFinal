@@ -21,7 +21,7 @@ namespace DataAccess.Repositories.Base
         }
         public async Task<List<T>> GetAllAsync()
         {
-            return await _table.ToListAsync();
+            return await _table.OrderByDescending(t => t.Id).ToListAsync();
         }
         public async Task<T> GetByIdAsync(int id)
         {
@@ -37,7 +37,8 @@ namespace DataAccess.Repositories.Base
         }
         public void Delete(T entity)
         {
-            _table.Remove(entity);
+            entity.IsDeleted = true;
+            _table.Update(entity);
         }
     }
 }

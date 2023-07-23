@@ -9,15 +9,17 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Contexts
 {
-    public class AppDbContext : IdentityDbContext
+    public class AppDbContext : IdentityDbContext<User>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
             
         }
 
-        public DbSet<Category> Categories { get; set; } 
+        public DbSet<Category> Categories { get; set;  } 
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<OurVisionComponent> OurVisionComponents { get; set; }
+        public DbSet<OurVision> OurVisions { get; set; }
 
     }
 }
