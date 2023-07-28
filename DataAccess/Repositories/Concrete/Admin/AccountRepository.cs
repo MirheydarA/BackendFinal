@@ -13,15 +13,15 @@ namespace DataAccess.Repositories.Concrete.Admin
 {
     public class AccountRepository : IAccountRepository
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> signInManager;
+        private readonly UserManager<Common.Entities.User> _userManager;
+        private readonly SignInManager<Common.Entities.User> signInManager;
 
-        public AccountRepository(UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountRepository(UserManager<Common.Entities.User> userManager, SignInManager<Common.Entities.User> signInManager)
         {
             _userManager = userManager;
             this.signInManager = signInManager;
         }
-        public async Task<bool> HasAccessToAdminPanelAsync(User user)
+        public async Task<bool> HasAccessToAdminPanelAsync(Common.Entities.User user)
         {
             if (await _userManager.IsInRoleAsync(user, UserRoles.Admin.ToString()) ||
                 await _userManager.IsInRoleAsync(user, UserRoles.Superadmin.ToString()) ||
@@ -32,7 +32,9 @@ namespace DataAccess.Repositories.Concrete.Admin
 
             return false;
         }
+
+        
     }
 
-    
+
 }

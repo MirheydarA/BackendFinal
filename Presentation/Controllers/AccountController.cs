@@ -1,4 +1,4 @@
-﻿using Business.Services.Abstract;
+﻿using Business.Services.Abstract.User;
 using Business.ViewModels.Account;
 using Common.Entities;
 using Microsoft.AspNetCore.Identity;

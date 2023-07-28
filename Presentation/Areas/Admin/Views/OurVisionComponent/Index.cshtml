@@ -1,9 +1,7 @@
 ﻿@using Business.ViewModels.Admin.OurVisionComponent
 @model OurVisionComponentIndexVM
 
-<h1 class="h3 mb-2 text-gray-800">Our Vision Components</h1>
-
-<a class="btn btn-info mb-3" asp-action="Create" asp-controller="ourvisioncomponent">Create</a>
+<h1 class="h3 mb-2 text-gray-800">Our Vision Component</h1>
 
 <table class="table table-dark">
     <thead>
@@ -11,8 +9,8 @@
             <th scope="col">Id</th>
             <th scope="col">Title</th>
             <th scope="col">Description</th>
+            <th scope="col">Photo</th>
             <th scope="col">Status</th>
-            <th scope="col">Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -23,6 +21,9 @@
                 <td>@ourVisionComponent.Title</td>
                 <td>@ourVisionComponent.Description</td>
                 <td>
+                    <img width="100" src="~/assets/images/@ourVisionComponent.Photoname " />
+                </td>
+                <td>
                     @if (!ourVisionComponent.IsDeleted)
                     {
                         <span class="text-success">Active</span>
@@ -31,10 +32,6 @@
                     {
                         <span class="text-danger">Non-Active</span>
                     }
-                </td>
-                <td>
-                    <a asp-action="Delete" asp-controller="ourvisioncomponent" asp-route-id="@ourVisionComponent.Id" class="btn btn-danger btn-delete">Delete</a>
-                    <a asp-action="Update" asp-controller="ourvisioncomponent" asp-route-id="@ourVisionComponent.Id" class="btn btn-primary">Update</a>
                 </td>
             </tr>
         }

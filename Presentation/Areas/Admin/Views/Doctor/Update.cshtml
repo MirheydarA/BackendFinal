@@ -1,0 +1,111 @@
+﻿@using Business.ViewModels.Admin.Doctor
+@model DoctorUpdateVM
+
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Update Doctor</h1>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <form enctype="multipart/form-data" asp-action="update" asp-controller="doctor" method="post">
+
+                <div asp-validation-summary="ModelOnly"></div>
+
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <input class="form-control" asp-for="Name"></input>
+                    <span asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PhoneNumber"></label>
+                    <input class="form-control" asp-for="PhoneNumber"></input>
+                    <span asp-validation-for="PhoneNumber"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <input class="form-control" asp-for="Email"></input>
+                    <span asp-validation-for="Email"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Qualification"></label>
+                    <textarea class="form-control" asp-for="Qualification"> </textarea>
+                    <span asp-validation-for="Qualification"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="WorkingTime"></label>
+                    <textarea class="form-control" asp-for="WorkingTime"> </textarea>
+                    <span asp-validation-for="WorkingTime"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description"></label>
+                    <textarea class="form-control" asp-for="Description"> </textarea>
+                    <span asp-validation-for="Description"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Photo"></label>
+                    <input class="form-control" asp-for="Photo"></input>
+                    <span asp-validation-for="Photo"></span>
+                </div>
+
+                <select asp-for="DutyId" asp-items="Model.Duties" multiple="multiple">
+                </select>
+
+
+                </select>
+
+                <button class="btn btn-primary" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- /.container-fluid -->
+@section scripts{
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+
+    <script>
+        $(document).ready(function () {
+            $('#DutyId').multiselect({
+                includeSelectAllOption: true,
+            });
+        });
+    </script>
+
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/38.0.1/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#Qualification'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#WorkingTime'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#Description'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}
+
+
+
+
+
+

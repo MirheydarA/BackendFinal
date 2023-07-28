@@ -9,6 +9,6 @@ namespace DataAccess.Repositories.Abstract.Admin
 {
     public interface IAccountRepository
     {
-        public Task<bool> HasAccessToAdminPanelAsync(User user);
+        public Task<bool> HasAccessToAdminPanelAsync(Common.Entities.User user);
     }
 }

@@ -9,6 +9,5 @@ namespace Business.Services.Abstract.Admin
 {
     public interface IOurVisionService
     {
-        public Task<bool> CreateAsync(OurVisionCreateVM model);
     }
 }

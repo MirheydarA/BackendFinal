@@ -68,21 +68,26 @@ namespace Business.Services.Concrete.Admin
                 return false;
             }
 
-            if (!_fileService.IsImage(model.Photoname))
-            {
-                _modelState.AddModelError("Photo", "Fayl sekil formatinda deyil");
-                return false;
-            }
+           
 
-            if (!_fileService.IsBiggerThanSize(model.Photoname, 900))
+            if (model.Photoname != null)
             {
-                _modelState.AddModelError("Photo", "Sekilin olcusu 900kb dan boyukdur");
-                return false;
+                if (!_fileService.IsImage(model.Photoname))
+                {
+                    _modelState.AddModelError("Photo", "Fayl sekil formatinda deyil");
+                    return false;
+                }
+
+                if (!_fileService.IsBiggerThanSize(model.Photoname, 900))
+                {
+                    _modelState.AddModelError("Photo", "Sekilin olcusu 900kb dan boyukdur");
+                    return false;
+                }
+                slider.Photoname = _fileService.Upload(model.Photoname);
             }
 
             slider.Title = model.Title;
             slider.Subtitle = model.Subtitle;
-            slider.Photoname = _fileService.Upload(model.Photoname);
             slider.ModfiedAt = DateTime.Now;
 
             _sliderRepository.Update(slider);

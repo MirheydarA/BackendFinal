@@ -1,0 +1,14 @@
+﻿@using Business.ViewModels.Admin.Department
+@model DepartmentIndexVM
+
+@foreach (var department in Model.Departments)
+{
+    <h3>Title</h3>
+    <span>@department.Title </span>
+
+    <h3>Description</h3>
+    <span>@department.Description</span>
+
+}
+
+

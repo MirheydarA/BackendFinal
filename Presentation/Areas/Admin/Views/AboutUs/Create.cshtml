@@ -1,0 +1,43 @@
+﻿@using Business.ViewModels.Admin.AboutUs
+@model AboutUsCreateVM
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Create About Us</h1>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <form enctype="multipart/form-data" asp-action="create" asp-controller="aboutus" method="post">
+                <div class="form-group">
+                    <label asp-for="Title"></label>
+                    <input class="form-control" asp-for="Title"></input>
+                    <span asp-validation-for="Title"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description"></label>
+                    <input class="form-control" asp-for="Description"></input>
+                    <span asp-validation-for="Description"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MainPhotoName"></label>
+                    <input class="form-control" asp-for="MainPhotoName"></input>
+                    <span asp-validation-for="MainPhotoName"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Photoname"></label>
+                    <input class="form-control" asp-for="Photoname"></input>
+                    <span asp-validation-for="Photoname"></span>
+                </div>
+                <button class="btn btn-primary" type="submit">Create</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+@section scripts{
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+}

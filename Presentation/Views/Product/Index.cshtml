@@ -1,0 +1,106 @@
+﻿@using Business.ViewModels.Product
+@using Common.Entities;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core.Fluent;
+@using X.PagedList.Web.Common;
+@model ProductIndexVM
+@{
+
+    int order = (Model.Products.PageNumber - 1) * Model.Products.PageSize;
+}
+
+
+<!-- main starts -->
+<main>
+    <!-- main-frame section starts -->
+    <section class="main-frame no-select" style="background-image: url(assets/images/shop-page-title.jpg);">
+        <div class="main-frame-title">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="main-frame-title-text">
+                            Shop
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="main-frame-breadcrumb">
+                            Home / Products
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main-frame section ends -->
+    <!-- products section starts -->
+    <section class="products no-select">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="left-sidebar">
+                        <div class="search">
+                            <h4>Search</h4>
+                            <div class="search-product">
+                                <input type="search" asp-for="Name" placeholder="Search products"
+                                       class="search-product-input">
+                                <img src="assets/images/search-product-icon.png" alt="" class="search-product-icon">
+                            </div>
+                        </div>
+                        <div class="categories">
+                            <h4>Product categories</h4>
+
+                            @if (Model.ProductCategories is not null)
+                            {
+                                <ul>
+                                    @foreach (var productCategory in Model.ProductCategories)
+                                    {
+                                        <li>@productCategory.Name (@productCategory.Products.Count) </li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 products-side">
+                    <div class="row">
+                        @foreach (var product in Model.Products)
+                        {
+                            <div class="col-lg-4 col-md-6 pb-5">
+                                <div class="productt" id="1">
+                                    <div class="product-image"
+                                         style="background-image: url(assets/images/@product.PhotoName);">
+                                        <div class="basket-wishlist-compare d-flex justify-content-center">
+                                            <div class="add-basket text-center">
+                                                <i class="fas fa-shopping-basket"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-inf">
+                                        <h5 class="productt-name">@product.Name</h5>
+                                        <p><span>$</span><span class="price">@product.Price</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+
+                        <div class="pagination d-flex justify-content-center">
+                            @Html.PagedListPager(Model.Products, currentPage => Url.Action("index", new {CurrentPage = currentPage, PageSize = Model.Products.PageSize}),
+                            new  PagedListRenderOptions {
+                            MaximumPageNumbersToDisplay = 5,
+                            })
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- products section ends -->
+</main>
+<!-- main ends -->
+
+            @section scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="~/js/Search.js"></script>
+            }           

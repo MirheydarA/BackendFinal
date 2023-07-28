@@ -11,7 +11,6 @@ namespace Common.Entities
     {
         public string Title { get; set; }
         public string Description { get; set; }
-        ICollection<OurVisionComponent> OurVisionComponents { get; set; }
-        public int OurVisionComponentId { get; set; }
+
     }
 }

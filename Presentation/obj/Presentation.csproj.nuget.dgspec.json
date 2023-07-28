@@ -47,6 +47,14 @@
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.4.0, )"
             }
           },
           "imports": [
@@ -245,6 +253,9 @@
             "projectReferences": {
               "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Business\\Business.csproj": {
                 "projectPath": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Business\\Business.csproj"
+              },
+              "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\DataAccess\\DataAccess.csproj"
               }
             }
           }

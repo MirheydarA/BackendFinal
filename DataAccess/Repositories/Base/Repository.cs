@@ -21,7 +21,7 @@ namespace DataAccess.Repositories.Base
         }
         public async Task<List<T>> GetAllAsync()
         {
-            return await _table.OrderByDescending(t => t.Id).ToListAsync();
+            return await _table.Where(x => !x.IsDeleted).OrderByDescending(t => t.Id).ToListAsync();
         }
         public async Task<T> GetByIdAsync(int id)
         {

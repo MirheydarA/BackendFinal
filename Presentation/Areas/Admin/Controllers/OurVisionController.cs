@@ -1,6 +1,7 @@
 ﻿using Business.Services.Abstract.Admin;
 using Business.Services.Concrete.Admin;
 using Business.ViewModels.Admin.OurVision;
+using Business.ViewModels.Admin.OurVisionComponent;
 using Business.ViewModels.Admin.Slider;
 using Common.Entities;
 using DataAccess.Repositories.Abstract.Admin;
@@ -24,24 +25,14 @@ namespace Presentation.Areas.Admin.Controllers
 
         [HttpGet]
         public async Task<IActionResult> Index()
-        { 
-
-            return View();
-        }
-
-        [HttpGet]
-        public IActionResult Create()
         {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Create(OurVisionCreateVM model)
-        {
-            var isSucceded = await _ourVisionService.CreateAsync(model);
-            if (isSucceded) return RedirectToAction("index");
-
+            var model = new OurVisionIndexVM()
+            {
+                OurVisions = await _ourVisionRepository.GetAllAsync()
+            };
             return View(model);
         }
+
+        
     }
 }

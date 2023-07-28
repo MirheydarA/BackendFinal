@@ -16,6 +16,7 @@
           rel="stylesheet">
     <!-- Slider Slick css -->
     <link rel="stylesheet" type="text/css" href="~/assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="~/css/Pagination.css"/>
     <link rel="stylesheet" type="text/css" href="~/assets/slick/slick-theme.css">
     <!--main css-->
     <link rel="stylesheet" href="~/css/style.css">
@@ -57,8 +58,8 @@
                                 <span class="title">Doctors</span>
                                 <div class="sub-menu">
                                     <div class="sub-menu-wrapper">
-                                        <a href="find-doctor.html">Find A Doctor</a>
-                                        <a href="doctor-single.html">Doctor Single</a>
+                                        <a asp-action="index" asp-controller="doctor">Find A Doctor</a>
+                                        <a asp-action="details" asp-controller="doctor">Doctor Single</a>
                                     </div>
                                 </div>
                             </li>
@@ -74,7 +75,7 @@
                                 <span class="title">Shop</span>
                                 <div class="sub-menu">
                                     <div class="sub-menu-wrapper">
-                                        <a href="sidebar-left.html">Sidebar left</a>
+                                        <a asp-action="index" asp-controller="product">Sidebar left</a>
                                         <a href="cart.html">Cart</a>
                                     </div>
                                 </div>
@@ -344,6 +345,8 @@
     <!--javascript-->
     <script src="js/script.js"></script>
     <!--scripts end-->
+    @RenderSection("scripts",false )
+
 </body>
 
 </html>

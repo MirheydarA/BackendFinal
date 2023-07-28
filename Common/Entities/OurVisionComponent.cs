@@ -13,6 +13,5 @@ namespace Common.Entities
         public string Title { get; set; }
         public string Description { get; set; }
         public string Photoname { get; set; }
-        public OurVision OurVision { get; set; }
     }
 }

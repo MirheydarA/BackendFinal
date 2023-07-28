@@ -8,6 +8,10 @@ namespace Business.ViewModels.Admin.OurVision
 {
     public class OurVisionIndexVM
     {
-        public Common.Entities.OurVision OurVision { get; set; }
+        public OurVisionIndexVM()
+        {
+            OurVisions = new List<Common.Entities.OurVision>();
+        }
+        public List<Common.Entities.OurVision> OurVisions{ get; set; }
     }
 }

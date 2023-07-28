@@ -56,7 +56,7 @@ namespace Presentation.Areas.Admin.Controllers
             {
                 Title = slider.Title,
                 Subtitle = slider.Subtitle,
-                //Photoname = slider.Photoname
+               
             };
             return View(model);
         }

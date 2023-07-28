@@ -1,12 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Business.Services.Abstract.User;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers
 {
     public class FAQController : Controller
     {
-        public IActionResult Index()
+        private readonly IFAQService _fAQService;
+
+        public FAQController(IFAQService fAQService)
         {
-            return View();
+            _fAQService = fAQService;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var model = await _fAQService.GetAllAsync();
+            return View(model);
         }
     }
 }

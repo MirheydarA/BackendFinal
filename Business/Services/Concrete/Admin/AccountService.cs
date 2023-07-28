@@ -17,12 +17,12 @@ namespace Business.Services.Concrete.Admin
     [Area("Admin")]
     public class AccountService : IAccountService
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<Common.Entities.User> _userManager;
+        private readonly SignInManager<Common.Entities.User> _signInManager;
         private readonly IAccountRepository _accountRepository;
         private ModelStateDictionary _modelState;
 
-        public AccountService(IActionContextAccessor actionContextAccessor,UserManager<User> userManager, SignInManager<User> signInManager, IAccountRepository accountRepository)
+        public AccountService(IActionContextAccessor actionContextAccessor,UserManager<Common.Entities.User> userManager, SignInManager<Common.Entities.User> signInManager, IAccountRepository accountRepository)
         {
             _userManager = userManager;
             _signInManager = signInManager;

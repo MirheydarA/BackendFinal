@@ -1,0 +1,100 @@
+﻿@using Business.ViewModels.Admin.Doctor
+@model DoctorIndexVM
+   <!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Doctors</h1>
+
+    <a class="btn btn-info" asp-action="Create" asp-controller="doctor">Create</a>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+            <div class="table-responsive ">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Photo</th>
+                            <th>Name</th>
+                            <th>Email</th> 
+                            <th>Duty</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead
+                    <tbody>
+                        @foreach (var doctor in Model.Doctors)
+                        {
+                        <tr>
+                            <td>
+                                <img width="100px" src="~/assets/images/@doctor.Photoname "/> 
+                            </td>                            
+                            <td>@doctor.Name</td>                            
+                            <td>@doctor.Email</td>   
+                            <td> 
+                                @foreach (var dutyName in doctor.Duty.Name)
+                                    {
+                                        <span>@dutyName</span>
+                                    }
+                            </td>                            
+                            <td>
+                                <a asp-action="Delete" asp-controller="doctor" asp-route-id="@doctor.Id" class="btn btn-danger btn-delete">Delete</a>
+                                <a asp-action="Update" asp-controller="doctor" asp-route-id="@doctor.Id" class="btn btn-primary">Update</a>
+                                <a asp-action="Details" asp-controller="doctor" asp-route-id="@doctor.Id" class="btn btn-secondary">Details</a>
+                            </td>
+                        </tr>  
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+
+
+                                @section scripts{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(".btn-delete").on("click", (e)=>{
+            e.preventDefault()
+
+            Swal.fire({
+  title: 'Are you sure?',
+  text: "You won't be able to revert this!",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonColor: '#3085d6',
+  cancelButtonColor: '#d33',
+  confirmButtonText: 'Yes, delete it!'
+}).then((result) => {
+  if (result.isConfirmed) {
+
+      let link = e.target.getAttribute("href")
+            fetch(link).then(res =>{
+                    //console.log(res.ok)
+                if(res.ok == true){
+                     Swal.fire(
+                       'Deleted!',
+                       'Your file has been deleted.',
+                       'success'
+                  ).then(()=>{
+                        window.location.reload()
+                      })
+                  
+                }else{
+                     Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!',
+  footer: '<a href="">Why do I have this issue?</a>'
+})
+                }
+            })
+  }
+})          
+        })
+    </script>
+}

@@ -1,0 +1,20 @@
+﻿@using Business.ViewModels.Admin.AboutUs
+@model AboutUsDetailsVM
+
+<h3>UserName</h3>
+<span>@Model.Title</span>
+
+<h3>Fullname</h3>
+<span>@Model.Description</span>
+
+<h3> Main Photo </h3>
+<span>
+    <img class="w-25" src="~/assets/images/@Model.MainPhotoname " />
+</span>
+
+<h3> Photo </h3>
+<span>
+    <img class="w-25" src="~/assets/images/@Model.Photoname " />
+</span>
+
+

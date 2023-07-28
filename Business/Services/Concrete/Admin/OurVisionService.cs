@@ -28,32 +28,8 @@ namespace Business.Services.Concrete.Admin
             _modelState = actionContextAccessor.ActionContext.ModelState;
             _unitOfWork = unitOfWork;
         }
-        public async Task<bool> CreateAsync(OurVisionCreateVM model)
-        {
+        
 
-            var slider = new OurVisionCreateVM
-            {
-                OurVisionComponents = _ourVisionComponentRepository.GetActive().Select(c => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
-                {
-                    Text = c.Title,
-                    Value = c.Id.ToString(),
-                }).ToList()
-            };
-
-            if (!_modelState.IsValid) return false;
-
-
-            OurVision ourVision = new OurVision
-            {
-                Title = model.Title,
-                Description = model.Description,
-                CreatedAt = DateTime.Now,
-                OurVisionComponentId = model.OurVisionComponentId
-            };
-
-            await _ourVisionRepository.CreateAsync(ourVision);
-            await _unitOfWork.CommitAsync();
-            return true;
-        }
+        
     }
 }
