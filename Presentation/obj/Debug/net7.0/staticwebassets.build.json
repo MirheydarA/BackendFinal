@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ymigKf70gvEY0EidzzlwgAFE38L41ISNBJh7cS45n3E=",
+  "Hash": "jLsgXfP4syDs3yMKhXbWv9q2q1yU+12mAiF0wVah6xU=",
   "Source": "Presentation",
   "BasePath": "_content/Presentation",
   "Mode": "Default",
@@ -32674,6 +32674,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\c2f9c87b-a2fe-46ed-be72-c1eafb3c6e73_as.png"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\c9c7e958-39b4-4d0c-9644-6abbf2973d06_as.png",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "assets/images/c9c7e958-39b4-4d0c-9644-6abbf2973d06_as.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\c9c7e958-39b4-4d0c-9644-6abbf2973d06_as.png"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\cart-frame.jpg",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
@@ -33386,6 +33403,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\f62e4918-0339-4433-923f-58d02782211b_as.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\f8a4c29a-47a0-49fa-8ea6-1e60642c4d97_md-icon-1.png",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "assets/images/f8a4c29a-47a0-49fa-8ea6-1e60642c4d97_md-icon-1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\f8a4c29a-47a0-49fa-8ea6-1e60642c4d97_md-icon-1.png"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\projects\\BackendFinal\\Presentation\\wwwroot\\assets\\images\\file.png",

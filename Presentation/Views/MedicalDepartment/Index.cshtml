@@ -1,0 +1,59 @@
+﻿@using Business.ViewModels.MedicalDepartment
+@model MedicalDepartmentIndexVM
+
+<!-- main starts -->
+<main>
+    <!-- main-frame section starts -->
+    <section class="main-frame-2 no-select" style="background-image: url(assets/images/medical-department.jpg);">
+        <div class="container">
+            <div class="row main-frame-2-title align-items-center">
+                <div class="col-md-6 main-frame-2-title-text">Medical Department</div>
+                <div class="col-md-6 text-md-right main-frame-2-title-breadcrumb">Home / Medical Department</div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- main-frame section ends -->
+    <!-- item section starts -->
+    <section class="items no-select">
+        <div class="container">
+            <div class="row items-section-title align-items-center">
+                @foreach (var medical in Model.Medicals)
+                {
+                    <div class="col-md-6">
+                        <h2 class="heading" data-aos="fade-up" data-aos-duration="2000">
+                            @medical.Title
+                        </h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="description" data-aos="fade-up" data-aos-duration="2000">
+                            @medical.Description
+                        </p>
+                    </div>
+                }
+            </div>
+            <div class="row items-content" data-aos="fade-up" data-aos-duration="2000">
+                @foreach (var component in Model.DepartmentComponents)
+                {
+                    <div class="col-lg-4">
+                        <div class="md-item">
+                            <div class="md-item-icon">
+                                <img src="assets/images/@component.Photoname" alt="">
+                            </div>
+                            <div class="title">
+                                @component.Title
+                            </div>
+                            <p class="subtitle">
+                                @component.Description
+                            </p>
+                            <div class="button">More Details >></div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+    <!-- item section ends -->
+</main>
+<!-- main ends -->

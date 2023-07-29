@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Business.Services.Concrete.User
@@ -43,16 +44,36 @@ namespace Business.Services.Concrete.User
             {
                 Email = model.Email,
                 UserName = model.Username,
-                Fullname = model.Fullname,
                 PhoneNumber = model.PhoneNumber,
             };
+
+            string pattern = @"^994(?:50|51|55|70|77|99|050|)\d{7}$";
+
+            Regex regexnumber = new Regex(pattern);
+
+            if (!regexnumber.IsMatch(user.PhoneNumber))
+            {
+                _modelState.AddModelError("PhoneNumber", "Telefon nomresi duzgun formatda deyil");
+                return false;
+            }
+
+            string emailpattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+            Regex regexemail = new Regex(emailpattern);
+            if (!regexemail.IsMatch(user.Email))
+            {
+                _modelState.AddModelError("Email", "Email duzgun formatda deyil");
+                return false;
+            }
+
+
+
 
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
             {
                 foreach (var error in result.Errors)
                 {
-                    _modelState.AddModelError(string.Empty, error.Description);
+                    _modelState.AddModelError("Password", error.Description);
                 }
                 return false;
             }

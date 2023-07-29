@@ -10,8 +10,6 @@ namespace Business.ViewModels.Account
     public class AccountRegisterVM
     {
         [Required]
-        public string Fullname { get; set; }
-        [Required]
         public string Username { get; set; }
         [EmailAddress]
         [DataType(DataType.EmailAddress)]
@@ -19,6 +17,7 @@ namespace Business.ViewModels.Account
         [Required]
         public string PhoneNumber { get; set; }
         [Required]
+        [DataType(DataType.Password)]  
         public string Password { get; set; }
         [Required]
         [Compare(nameof(Password))]

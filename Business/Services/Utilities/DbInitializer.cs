@@ -19,12 +19,30 @@ namespace Business.Services.Utilities
                                            UserManager<User> userManager, 
                                            IOurVisionRepository ourVisionRepository, 
                                            IDepartmentRepository departmentRepository,
+                                           IMedicalRepository medicalRepository,
                                            IUnitOfWork unitOfWork)
         {
             await SeedRolesAsync(roleManager);
             await SeedUsersAsync(userManager);
             await SeedDepartmentsAsync(departmentRepository, unitOfWork);
+            await SeedMedicalAsync(medicalRepository, unitOfWork);
             await SeedOurvision(ourVisionRepository, unitOfWork);
+        }
+
+        private static async Task SeedMedicalAsync(IMedicalRepository medicalRepository, IUnitOfWork unitOfWork)
+        {
+            var medical = await medicalRepository.GetAllAsync();
+            if (medical.Count == 0)
+            {
+                var newMedical = new Medical()
+                {
+                    Title = "\r\n                            Expert physician and caring clinical staff provide you with an exceptional patient care.",
+                    Description = "\r\n                            Syring Medical Center provide patients with choices to ask for the conducting and analyzing\r\n                            of several lab tests on-site at no cost for prioritized patients or at 70% for people with\r\n                            an insurance. Additional testing can be ordered off site; those costs are the responsibility\r\n                            of the enquirers.\r\n                        "
+                };
+
+                await medicalRepository.CreateAsync(newMedical);
+                await unitOfWork.CommitAsync();
+            }
         }
 
         private static async Task SeedDepartmentsAsync(IDepartmentRepository departmentRepository, IUnitOfWork unitOfWork)
@@ -82,7 +100,7 @@ namespace Business.Services.Utilities
                 user = new User
                 {
                     UserName = "Admin",
-                    Fullname = "Admin",
+                    FullName = "Admin",
                     Email = "admin@app.com",
                 };
                 var result = await userManager.CreateAsync(user, "admin123");

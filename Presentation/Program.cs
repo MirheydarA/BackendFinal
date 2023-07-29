@@ -2,6 +2,7 @@ using Business.Services.Abstract.Admin;
 using Business.Services.Abstract.User;
 using Business.Services.Concrete.Admin;
 using Business.Services.Concrete.User;
+using Business.Services.Concrete.Userr;
 using Business.Services.Utilities;
 using Business.Services.Utilities.Abstract;
 using Business.Services.Utilities.Concrete;
@@ -56,6 +57,7 @@ builder.Services.AddScoped<DataAccess.Repositories.Abstract.Admin.IFAQCategoryRe
 builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
 builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
 builder.Services.AddScoped<DataAccess.Repositories.Abstract.Admin.IProductRepository, DataAccess.Repositories.Concrete.Admin.ProductRepository>();
+builder.Services.AddScoped<IMedicalRepository, MedicalRepository>();
 
 
 
@@ -63,6 +65,7 @@ builder.Services.AddScoped<DataAccess.Repositories.Abstract.Admin.IProductReposi
 builder.Services.AddScoped<IFAQRepository, FAQRepository>();
 builder.Services.AddScoped<DataAccess.Repositories.Abstract.User.IDoctorRepository, DataAccess.Repositories.Concrete.User.DoctorRepository>();
 builder.Services.AddScoped<DataAccess.Repositories.Abstract.Userr.IProductRepository, DataAccess.Repositories.Concrete.Userr.ProductRepository>();
+
 
 
 /// Admin Services ////////
@@ -88,7 +91,7 @@ builder.Services.AddScoped<Business.Services.Abstract.User.IAccountService, Busi
 builder.Services.AddScoped<IFAQService, FAQService>();
 builder.Services.AddScoped<Business.Services.Abstract.User.IDoctorService, Business.Services.Concrete.User.DoctorService>();
 builder.Services.AddScoped<Business.Services.Abstract.User.IProductService, Business.Services.Concrete.Userr.ProductService>();
-
+builder.Services.AddScoped<IMedicalDepartmentService, MedicalDepartmentService>();
 
 
 
@@ -139,8 +142,9 @@ using (var scope = app.Services.CreateScope())
     var userManager = scope.ServiceProvider.GetService<UserManager<User>>();
     var visionRepository = scope.ServiceProvider.GetService<IOurVisionRepository>();
     var departmentRepository = scope.ServiceProvider.GetService<IDepartmentRepository>();
+    var medical = scope.ServiceProvider.GetService<IMedicalRepository>();
     var unitOfWork = scope.ServiceProvider.GetService<IUnitOfWork>();
-    await DbInitializer.SeedAsync(roloManager, userManager,visionRepository,departmentRepository ,unitOfWork);
+    await DbInitializer.SeedAsync(roloManager, userManager,visionRepository,departmentRepository, medical ,unitOfWork);
 }
 
 app.Run();

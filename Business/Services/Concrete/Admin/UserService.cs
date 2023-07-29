@@ -62,8 +62,8 @@ namespace Business.Services.Concrete.Admin
             {
                 UserName = model.Username,
                 Email = model.Email,
-                Fullname = model.Fullname,
-                PhoneNumber = model.PhoneNumber
+                PhoneNumber = model.PhoneNumber,
+                FullName = model.Fullname
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);
@@ -114,7 +114,7 @@ namespace Business.Services.Concrete.Admin
 
             if (user == null) return false;
 
-            user.Fullname = model.Fullname;
+            user.FullName = model.Fullname;
             user.Email = model.Email;
             user.PhoneNumber = model.PhoneNumber;
             user.UserName = model.Username;
@@ -206,7 +206,7 @@ namespace Business.Services.Concrete.Admin
             {
                 UserName = user.UserName,
                 Email = user.Email,
-                FullName = user.Fullname,
+               // FullName = user.Fullname,
                 PhoneNumber = user.PhoneNumber,
                 Roles = roles.ToList(),
             };

@@ -40,7 +40,7 @@ namespace Presentation.Areas.Admin.Controllers
                     var userWithRoles = new UserVM
                     {
                         Id = user.Id,
-                        Fullname = user.Fullname,
+                        //Fullname = user.Fullname,
                         Email = user.Email,
                         Username = user.UserName,
                         Roles = roles.ToList()
@@ -99,7 +99,7 @@ namespace Presentation.Areas.Admin.Controllers
 
             var model = new UserUpdateVM
             {
-                Fullname = user.Fullname,
+                Fullname = user.FullName,
                 Email = user.Email,
                 PhoneNumber = user.PhoneNumber,
                 Username = user.UserName,

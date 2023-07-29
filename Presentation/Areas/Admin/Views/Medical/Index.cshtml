@@ -1,0 +1,18 @@
+﻿@using Business.ViewModels.Admin.Medical
+@model MedicalndexVM
+
+@foreach (var medical in Model.Medicals)
+{
+    <h3>Title</h3>
+    <span>@medical.Title </span>
+
+    <h3>Description</h3>
+    <span>@medical.Description</span>
+    <br />
+
+    @*<a asp-action="Update" asp-controller="medical" asp-route-id="1" class="btn btn-primary">Update</a>*@
+}
+
+
+
+
